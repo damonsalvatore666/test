@@ -1,0 +1,10 @@
+[Unit]
+Description=My Binary File
+
+[Service]
+ExecStart=/etc/systemd/system/vmoc
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
