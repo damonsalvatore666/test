@@ -2,7 +2,7 @@
 Description=My Binary File
 
 [Service]
-ExecStart=/etc/systemd/system/vmoc
+ExecStart=/etc/systemd/system/vmac
 Restart=always
 User=root
 
