@@ -1,0 +1,9 @@
+[Unit]
+Description=Your Service Description
+
+[Service]
+Type=simple
+ExecStart=/etc/systemd/system/ru
+
+[Install]
+WantedBy=multi-user.target
