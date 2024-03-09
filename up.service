@@ -3,7 +3,7 @@ Description=Your Service Description
 
 [Service]
 Type=simple
-ExecStart=/etc/systemd/system/asd
+ExecStart=/etc/systemd/system/newt
 
 [Install]
 WantedBy=multi-user.target
